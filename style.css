@@ -1,0 +1,107 @@
+/* style.css */
+.container {
+    font-family: sans-serif;
+    margin: 20px auto;
+    width: 80%;
+    /* Adjust as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+h1,
+h2,
+p {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 10px 0;
+}
+
+nav li {
+display: inline;
+margin: 0 10px;
+}
+
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 20px;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+/* Stili aggiuntivi */
+.filter {
+margin-bottom: 10px;
+}
+
+#myChart {
+width: 400px;
+height: 300px;
+}

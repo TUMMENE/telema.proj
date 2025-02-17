@@ -1,0 +1,17 @@
+// script.js
+document.getElementById('change-date').addEventListener('change', function() {
+    // Here you would typically fetch new data based on the selected date.
+    // For this example, we'll just log the date to the console.
+    console.log("Change date to:", this.value);
+
+    // In a real application, you would update the table and chart data here.
+    // You'd likely use AJAX or fetch to get the data from your Python backend.
+});
+
+
+//Example of how to update a table cell (you would do this with fetched data)
+document.getElementById('non-commercial-long').textContent = "New Value (from data)";
+
+//Chart.js would go here.  Example:
+// const ctx = document.getElementById('myChart');
+// new Chart(ctx, { ... }); // Your Chart.js code
